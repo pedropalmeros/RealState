@@ -1,0 +1,29 @@
+@use './variables' as v;
+
+h1, h2, h3 {
+    line-height: 1.2;
+    margin: 0;
+}
+h1 {
+    font-family: v.$fuenteSecundaria;
+    font-size: 4.4rem;
+}
+h2 {
+    font-family: v.$fuenteSecundaria;
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+[class$="heading"] {
+    margin: 2rem 0;
+}
+a {
+    color: v.$negro;
+    text-decoration: none;
+}
+p {
+    color: v.$negro;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
